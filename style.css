@@ -362,7 +362,8 @@ section{
   .project-img {
     border-radius: 2rem;
     width: 90%;
-    height: 90%;
+    height: 250px; /* Set the height to a fixed size */
+    object-fit: cover;
   }
   
   .project-title {
@@ -371,9 +372,20 @@ section{
   }
   
   .project-btn {
+
     color: black;
     border-color: rgb(163, 163, 163);
+    margin-top: 2rem;
   }
+
+  .project-text-container p {
+    text-align: justify; /* Justify the text */
+    margin: 0 1.5rem; /* Add some margin to the left and right */
+    line-height: 1.6; /* Improve readability */
+    color: rgb(85, 85, 85); /* Ensure consistent text color */
+    
+}
+
   
   /* CONTACT */
   
@@ -381,7 +393,7 @@ section{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 120vh;
   }
   
   .contact-info-upper-container {
