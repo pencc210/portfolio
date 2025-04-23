@@ -32,6 +32,8 @@ nav{
     justify-content: space-around;
     align-items: center;
     height: 17vh;      /*  Navigation bar is 17% of screen */
+
+    border-bottom: 2px solid #ddd; /* Add gray line under the header */
 }
 
 .nav-links{
@@ -437,4 +439,3 @@ section{
   footer p {
     text-align: center;
   }
-
